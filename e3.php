@@ -14,7 +14,12 @@
 <meta name="twitter:title" content="E3 2018 - Jens Møller">
 <meta name="twitter:description" content="Electronic Entertainment Expo, E3 eller E³ er en årlig underholdningsmesse primært tiltænkt præsentation af fremtidige udgivelser indenfor computerspil og konsolspil">
 <meta name="twitter:image:src" content="https://design.jensz12.com/images/e3-back.png">>
-<?php require_once 'inc/header.php';?>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="manifest" href="/manifest.json">
+<link rel="image_src" href="https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
+<link href="https://design.jensz12.com/css/style.css" rel="stylesheet">
+<link href="https://static.jensz12.com/lightbox/css/lightbox.css" rel="stylesheet">
 <style>
 body {
 	background-image: url(https://design.jensz12.com/images/e3-back.png);
@@ -54,38 +59,42 @@ h1 {
 								</thead>
 								<tbody>
 									<tr>
-										<td><a href="https://www.twitch.tv/events/G0lwrcvfTySTry-jkPhl_g">EA</a></td>
-										<td>Lørdag d. 9 juni </td>
-										<td>20:00</td>
-									</tr>
-									<tr>
-										<td><a href="https://www.twitch.tv/events/G0lwrcvfTySTry-jkPhl_g">Microsoft</a></td>
-										<td>Søndag d. 10 juni</td>
-										<td>22:00</td>
-									</tr>
-									<tr>
-										<td><a href="https://www.twitch.tv/events/G0lwrcvfTySTry-jkPhl_g">Bethesda</a></td>
-										<td>Mandag d. 11. juni</td>
-										<td>03:30</td>
-									</tr>
-									<tr>
-										<td><a href="https://www.twitch.tv/events/G0lwrcvfTySTry-jkPhl_g">Ubisoft</a></td>
-										<td>Mandag d. 11. juni</td>
-										<td>22:00</td>
-									</tr>
-									<tr>
-										<td><a href="https://www.twitch.tv/events/G0lwrcvfTySTry-jkPhl_g">Nintendo</a></td>
-										<td>Tirsdag d. 12 juni</td>
-										<td>18:00</td>
-									</tr>
-									<tr>
-										<td><a href="https://www.twitch.tv/events/G0lwrcvfTySTry-jkPhl_g">Sony</a></td>
+										<td><a href="">EA</a></td>
 										<td>TBA</td>
 										<td>TBA</td>
 									</tr>
-									
 									<tr>
-										<td><a href="https://www.twitch.tv/events/G0lwrcvfTySTry-jkPhl_g">PC Gamer Show</a></td>
+										<td><a href="">Microsoft</a></td>
+										<td>TBA</td>
+										<td>TBA</td>
+									</tr>
+									<tr>
+										<td><a href="">Bethesda</a></td>
+										<td>TBA</td>
+										<td>TBA</td>
+									</tr>
+									<tr>
+										<td><a href="">Square Enix</a></td>
+										<td>TBA</td>
+										<td>TBA</td>
+									</tr>
+									<tr>
+										<td><a href="">Ubisoft</a></td>
+										<td>TBA</td>
+										<td>TBA</td>
+									</tr>
+									<tr>
+										<td><a href="">PC Gamer Show</a></td>
+										<td>TBA</td>
+										<td>TBA</td>
+									</tr>
+									<tr>
+										<td><a href="">Sony</a></td>
+										<td>TBA</td>
+										<td>TBA</td>
+									</tr>
+									<tr>
+										<td><a href="">Nintendo</a></td>
 										<td>TBA</td>
 										<td>TBA</td>
 									</tr>
@@ -107,9 +116,11 @@ h1 {
 					</div>
 				</article>
 			</div>
-<?php require_once 'inc/footer.php';?>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"crossorigin="anonymous"></script>
 <script>
-	var countDownDate = new Date("Jun 9, 2018 19:00:00").getTime();
+	var countDownDate = new Date("Jun 11, 2019 19:00:00").getTime();
 	var x = setInterval(function() {
     var now = new Date().getTime();
     var distance = countDownDate - now;
