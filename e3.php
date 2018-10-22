@@ -16,10 +16,9 @@
 <meta name="twitter:image:src" content="https://design.jensz12.com/images/e3-back.png">>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
 <link rel="manifest" href="/manifest.json">
-<link rel="image_src" href="https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
+<link rel="image_src" href="/https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
 <link href="https://design.jensz12.com/css/style.css" rel="stylesheet">
-<link href="https://static.jensz12.com/lightbox/css/lightbox.css" rel="stylesheet">
 <style>
 body {
 	background-image: url(https://design.jensz12.com/images/e3-back.png);
