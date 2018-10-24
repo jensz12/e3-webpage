@@ -16,9 +16,10 @@
 <meta name="twitter:image:src" content="https://design.jensz12.com/images/e3-back.png">>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
 <link rel="manifest" href="/manifest.json">
-<link rel="image_src" href="/https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
+<link rel="image_src" href="https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
 <link href="https://design.jensz12.com/css/style.css" rel="stylesheet">
+<link href="https://static.jensz12.com/lightbox/css/lightbox.css" rel="stylesheet">
 <style>
 body {
 	background-image: url(https://design.jensz12.com/images/e3-back.png);
@@ -37,87 +38,86 @@ h1 {
 </style>
 </head>
 <body>
-<header>
-</header>
 <main role="main" id="content" class="container">
-<div class="row">
-				<article class="col-lg-12 col-md-12">
-					<div class="jumbotron">
-						<h1> E3 starter om:</h1>
-						<h1 id="countdown"></h1>
-					</div>
-					<div class="jumbotron">
-						<div class="table-responsive">
-							<table class="table table-striped table-hover">
-								<thead>
-									<tr>
-										<th>Publisher</th>
-										<th>Dato</th>
-										<th>Klokkeslæt</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><a href="">EA</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-									<tr>
-										<td><a href="">Microsoft</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-									<tr>
-										<td><a href="">Bethesda</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-									<tr>
-										<td><a href="">Square Enix</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-									<tr>
-										<td><a href="">Ubisoft</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-									<tr>
-										<td><a href="">PC Gamer Show</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-									<tr>
-										<td><a href="">Sony</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-									<tr>
-										<td><a href="">Nintendo</a></td>
-										<td>TBA</td>
-										<td>TBA</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-					<div class="jumbotron">
-						 <div id="twitch-embed"></div>
-						 <script src="https://embed.twitch.tv/embed/v1.js"></script>
-					    <script type="text/javascript">
+	<div class="row">
+		<article class="col-lg-12 col-md-12">
+			<div class="jumbotron">
+				<h1> E3 starter om:</h1>
+				<h1 id="countdown"></h1>
+			</div>
+			<div class="jumbotron">
+				<div class="table-responsive">
+					<table class="table table-striped table-hover">
+						<thead>
+							<tr>
+								<th>Publisher</th>
+								<th>Dato</th>
+								<th>Klokkeslæt</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="">EA</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td><a href="">Microsoft</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td><a href="">Bethesda</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td><a href="">Square Enix</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td><a href="">Ubisoft</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td><a href="">PC Gamer Show</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td><a href="">Sony</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+							<tr>
+								<td><a href="">Nintendo</a></td>
+								<td>TBA</td>
+								<td>TBA</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="jumbotron">
+				 <div id="twitch-embed"></div>
+					 <script src="https://embed.twitch.tv/embed/v1.js"></script>
+				     <script type="text/javascript">
 							new Twitch.Embed("twitch-embed", {
 							width: "100%",
 							height: 500,
 							theme: "dark",
 							channel: "jensz123"
 							});
-						</script>
-					</div>
-				</article>
+					</script>
+				</div>
 			</div>
-			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"crossorigin="anonymous"></script>
+		</article>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"crossorigin="anonymous"></script>
 <script>
 	var countDownDate = new Date("Jun 11, 2019 19:00:00").getTime();
 	var x = setInterval(function() {
