@@ -14,12 +14,11 @@
 <meta name="twitter:title" content="E3 2021 - Jens Møller">
 <meta name="twitter:description" content="Electronic Entertainment Expo, E3 eller E³ er en årlig underholdningsmesse primært tiltænkt præsentation af fremtidige udgivelser indenfor computerspil og konsolspil">
 <meta name="twitter:image:src" content="https://design.jensz12.com/images/e3-2019.jpg">>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="manifest" href="/manifest.json">
 <link rel="image_src" href="https://www.gravatar.com/avatar/5ce60652703ef30780a3cbb1c0eb0317?s=2000">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-LRlmVvLKVApDVGuspQFnRQJjkv0P7/YFrw84YYQtmYG4nK8c+M+NlmYDCv0rKWpG" crossorigin="anonymous">
 <link href='https://fonts.googleapis.com/css?family=Roboto:100,300' rel='stylesheet' type='text/css'>
-<link href="https://static.jensz12.com/lightbox/css/lightbox.css" rel="stylesheet">
 <style>
 body {
 	background-image: url(https://design.jensz12.com/images/e3-2019.jpg);
@@ -41,6 +40,32 @@ a:hover, a:active {
 h1 {
   text-align: center;
   margin-top:0px;
+}
+
+@media (prefers-color-scheme: light) {
+
+  .card-title, h1, h2, p, b, card-text, a:link, a:visited, th, tr {
+    color: black;
+  }
+  .jumbotron, .card {
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .card-title, h1, h2, p, b, card-text, a:link, a:visited, th, tr {
+    color: white;
+  }
+  .jumbotron, .card {
+    background-color: #212121;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
 }
 </style>
 </head>
@@ -115,17 +140,16 @@ h1 {
 							width: "100%",
 							height: 500,
 							theme: "dark",
-							channel: "jensz123"
+							channel: "jensz12"
 							});
 					</script>
 				</div>
 			</div>
 		</article>
 	</div>
-	<!--<script src="https://static.jensz12.com/script/snowstorm.js"></script>-->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script>
 	var countDownDate = new Date("Jun 15, 2021 22:00:00").getTime();
 	var x = setInterval(function() {
